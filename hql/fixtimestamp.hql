@@ -1,3 +1,4 @@
+USE movielens;
 INSERT INTO ratings 
 SELECT
  userId,

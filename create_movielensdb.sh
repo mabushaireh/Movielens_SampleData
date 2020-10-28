@@ -5,7 +5,6 @@ beeline -u 'jdbc:hive2://headnodehost:10001/;transportMode=http' -f ./hql/clean.
 beeline -u 'jdbc:hive2://headnodehost:10001/;transportMode=http' -f ./hql/create.hql
 
 
-cd ~
 mkdir movielens
 cd movielens
 
@@ -21,5 +20,5 @@ hdfs dfs -copyFromLocal ./ml-25m/ratings.csv /hive/warehouse/external/movielens.
 hdfs dfs -copyFromLocal ./ml-25m/genome-tags.csv /hive/warehouse/external/movielens.db/genome-tags/
 hdfs dfs -copyFromLocal ./ml-25m/genome-scores.csv /hive/warehouse/external/movielens.db/genome-scores/
 
-
-beeline -u 'jdbc:hive2://headnodehost:10001/;transportMode=http' -f fixtimestamp.hql
+cd ..
+beeline -u 'jdbc:hive2://headnodehost:10001/;transportMode=http' -f ./hql/fixtimestamp.hql
