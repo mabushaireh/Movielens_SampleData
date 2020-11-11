@@ -5,8 +5,7 @@ SELECT
  movieId,
  rating,
  CAST(from_unixtime(createdOn,"yyyy-MM-dd HH:mm:ss") as TIMESTAMP) AS createdOn
-FROM 
- ratings_tmp;
+FROM ratings_tmp;
 
 INSERT INTO tags 
 SELECT
@@ -14,5 +13,4 @@ SELECT
  movieId,
  tag,
  CAST(from_unixtime(createdOn,"yyyy-MM-dd HH:mm:ss") as TIMESTAMP) AS createdOn
-FROM
- tags_tmp;
+FROM tags_tmp;
