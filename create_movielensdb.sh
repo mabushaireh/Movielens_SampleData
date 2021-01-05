@@ -1,8 +1,8 @@
 #!/bin/bash
 
-beeline -u 'jdbc:hive2://headnodehost:10001/;transportMode=http' -f ./hql/clean.hql
+/usr/hdp/4.1.2.5/hive/bin/hive.distro -f ./hql/clean.hql
 
-beeline -u 'jdbc:hive2://headnodehost:10001/;transportMode=http' -f ./hql/create.hql
+/usr/hdp/4.1.2.5/hive/bin/hive.distro -f ./hql/create.hql
 
 
 mkdir movielens
@@ -21,4 +21,4 @@ hdfs dfs -copyFromLocal ./ml-25m/genome-tags.csv /hive/warehouse/external/moviel
 hdfs dfs -copyFromLocal ./ml-25m/genome-scores.csv /hive/warehouse/external/movielens.db/genome-scores/
 
 cd ..
-beeline -u 'jdbc:hive2://headnodehost:10001/;transportMode=http' -f ./hql/fixtimestamp.hql
+/usr/hdp/4.1.2.5/hive/bin/hive.distro -f ./hql/fixtimestamp.hql

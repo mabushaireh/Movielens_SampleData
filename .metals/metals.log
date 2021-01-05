@@ -1,3 +1,27 @@
 2020.10.30 10:14:52 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData' for client vscode.
 2020.10.30 10:14:54 INFO  time: initialize in 1.54s
 2020.10.30 10:15:05 WARN  no build tool detected in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.13 17:42:23 INFO  Started: Metals version 0.9.5 in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData' for client vscode.
+2020.11.13 17:42:24 INFO  time: initialize in 0.64s
+2020.11.13 17:42:28 WARN  Build server is not auto-connectable.
+2020.11.13 17:42:28 WARN  no build tool detected in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Nov 13, 2020 5:42:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.11.16 10:39:19 INFO  shutting down Metals
+2020.11.16 10:40:12 INFO  Started: Metals version 0.9.5 in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData' for client vscode.
+2020.11.16 10:40:13 INFO  time: initialize in 0.68s
+2020.11.16 10:40:14 WARN  Build server is not auto-connectable.
+2020.11.16 10:40:14 WARN  no build tool detected in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Nov 16, 2020 10:53:58 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.11.16 12:03:43 INFO  shutting down Metals
+2020.11.19 12:18:47 INFO  Started: Metals version 0.9.5 in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData' for client vscode.
+2020.11.19 12:18:47 INFO  time: initialize in 0.74s
+2020.11.19 12:18:48 WARN  Build server is not auto-connectable.
+2020.11.19 12:18:48 WARN  no build tool detected in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.23 13:03:48 INFO  Started: Metals version 0.9.5 in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData' for client vscode.
+2020.11.23 13:03:50 INFO  time: initialize in 2.34s
+2020.11.23 13:03:56 WARN  Build server is not auto-connectable.
+2020.11.23 13:03:56 WARN  no build tool detected in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.23 13:10:27 INFO  shutting down Metals
+2020.12.21 16:07:13 INFO  Started: Metals version 0.9.7 in workspace 'C:\Users\maabusha\source\repos\mabushaireh\Movielens_SampleData' for client vscode.
